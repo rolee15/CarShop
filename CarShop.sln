@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarShop", "CarShop\CarShop.csproj", "{7F090619-683F-48F7-A7D1-C89196147D96}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarShop.CLI", "CarShop.CLI\CarShop.CLI.csproj", "{7F090619-683F-48F7-A7D1-C89196147D96}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarShop.Data", "CarShop.Data\CarShop.Data.csproj", "{4BAE6CEC-D33B-4E2C-9A33-25767F80E011}"
 EndProject
@@ -8,6 +8,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 	ProjectSection(SolutionItems) = preProject
 		.gitignore = .gitignore
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarShop.Repositories", "CarShop.Repositories\CarShop.Repositories.csproj", "{D99A643E-B9AA-4E46-B153-5D4631F08E5C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,5 +25,9 @@ Global
 		{4BAE6CEC-D33B-4E2C-9A33-25767F80E011}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4BAE6CEC-D33B-4E2C-9A33-25767F80E011}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4BAE6CEC-D33B-4E2C-9A33-25767F80E011}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D99A643E-B9AA-4E46-B153-5D4631F08E5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D99A643E-B9AA-4E46-B153-5D4631F08E5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D99A643E-B9AA-4E46-B153-5D4631F08E5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D99A643E-B9AA-4E46-B153-5D4631F08E5C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

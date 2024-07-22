@@ -14,7 +14,8 @@ public class Brand
     public string Name { get; set; } = default!;
 
     // Navigational property
-    public ICollection<Car> Cars { get; set; }
+    [NotMapped]
+    public virtual ICollection<Car> Cars { get; set; }
 
     public Brand()
     {

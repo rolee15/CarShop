@@ -16,5 +16,9 @@ public class Car
     public int? Price { get; set; }
 
     // Navigational property
-    public Brand Brand { get; set; } = default!;
+    [NotMapped]
+    public virtual Brand Brand { get; set; } = default!;
+
+    [ForeignKey(nameof(Brand))]
+    public int BrandId { get; set; }
 }
