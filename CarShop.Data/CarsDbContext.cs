@@ -18,7 +18,7 @@ public class CarsDbContext : DbContext
         if (!optionsBuilder.IsConfigured)
         {
             optionsBuilder
-                .LogTo(Console.WriteLine)
+                //.LogTo(Console.WriteLine)
                 .UseLazyLoadingProxies()
                 .UseSqlite("Data Source=cars.db");
         }

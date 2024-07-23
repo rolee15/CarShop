@@ -1,18 +1,14 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
-        <OutputType>Exe</OutputType>
         <TargetFramework>net8.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\CarShop.Logic\CarShop.Logic.csproj" />
-    </ItemGroup>
-
-    <ItemGroup>
-      <PackageReference Include="Microsoft.Extensions.Hosting" Version="8.0.0" />
+      <ProjectReference Include="..\CarShop.Data\CarShop.Data.csproj" />
+      <ProjectReference Include="..\CarShop.Repositories\CarShop.Repositories.csproj" />
     </ItemGroup>
 
 </Project>
